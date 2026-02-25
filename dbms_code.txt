@@ -1,0 +1,52 @@
+--CREATE TABLE Customer (CustomerID varchar(10) PRIMARY KEY, CustomerName varchar(10), ContactNo int, Address varchar(100), City varchar(50), PostalCode varchar(50), Country varchar(50) );
+
+--CREATE TABLE Employee_36 (EmployeeID varchar(10)PRIMARY KEY, LastName varchar(10), FirstName varchar(10), BirthDate date, Photo varchar(10) );
+
+--CREATE TABLE Orders (
+--OrderID varchar(10) PRIMARY KEY, CustomerID varchar(10), EmployeeID varchar(10), OrderDate date, ShipperID varchar(10), 
+--FOREIGN KEY(CustomerID) references Customer(CustomerID),
+--FOREIGN KEY(EmployeeID) references Employee_36(EmployeeID) );
+    
+--INSERT INTO Employee_36 VALUES('E01','Smith','David', DATE '1989-02-11', 'Photo');
+--INSERT INTO Employee_36 VALUES('E02','Alex','Annu', DATE'2001-12-09', 'Photo');
+--INSERT INTO Employee_36 VALUES('E03','Philip','Aswathy',DATE '2002-07-23', 'Photo');
+--INSERT INTO Employee_36 VALUES('E04','Smith','Sam',DATE '2001-08-24', 'Photo');
+--INSERT INTO Employee_36 VALUES('E05','Del Ray','Lana',DATE '2003-07-25', 'Photo');
+--SELECT * FROM Employee_36;
+--ALTER TABLE Employee_36 MODIFY (EmployeeID varchar(20) PRIMARY KEY);
+
+
+--INSERT INTO Customer VALUES(
+    --'C01','George','12345675','ABC Villa', 'America','A21','USA');
+    
+--INSERT INTO Customer VALUES(
+--'C02','Alex','6437286','XYZ Villa', 'Chennai','I89','India');
+
+--INSERT INTO Customer VALUES(
+--'C03','Philip','76438496','DER Villa', 'Kottayam','I76','India');
+
+--INSERT INTO Customer VALUES(
+--'C04','Jasmine','0275674','Blooms Villa', 'Hong Kong','C45','China');
+
+--INSERT INTO Customer VALUES(
+--'C05','Lana','56425796','Star Villa','Yokohoma','J09', 'Japan');
+
+--INSERT INTO Orders VALUES('Ord01','C02','E05', date '2002-08-12','SHIP03');
+--INSERT INTO Orders VALUES('Ord02','C04','E01', DATE '2001-03-13', 'SHIP04');
+--INSERT INTO Orders VALUES('Ord03','C01','E02',DATE '2002-07-23', 'SHIP10');
+--INSERT INTO Orders VALUES('Ord04','C03','E04',DATE '2002-01-27', 'SHIP01');
+--INSERT INTO Orders VALUES('Ord05','C05','E03',DATE '2003-09-11', 'SHIP05');
+
+-- SELECT * FROM Customer ORDER BY CustomerName ASC;
+-- SELECT FirstName FROM Employee_36 WHERE BirthDate>'31-12-1980' ORDER BY BirthDate DESC;
+--SELECT * FROM Customer;
+--SELECT COUNT(CustomerName),City FROM Customer GROUP BY City; 
+--Select * FROM Customer ;
+--UPDATE Customer SET City='Yokohama' WHERE CustomerName='George';
+
+
+Data to e checked later on
+
+
+
+
